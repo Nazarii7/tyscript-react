@@ -3,7 +3,7 @@
 // import "./types";
 //import "./interface";
 // import "./enum";
-// import "./function";
-//import "./class";
+//import "./function";
+import "./class";
 
 export {};
