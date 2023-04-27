@@ -4,9 +4,11 @@ const t = temps.filter((t) => t > 68);
 
 console.log(t);
 
-const coords: [number, number] = [23, 45];
+type Coords = [number, number];
 
-console.log(temps, coords);
+const coords: Coords = [23, 45];
+
+console.log(coords);
 
 const entries = Object.entries({ a: 5, b: 9 });
 

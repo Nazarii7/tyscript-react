@@ -1,11 +1,17 @@
 let age: number = 5;
-const name: string = "Nazarii";
+const name: string = "mango";
 
-let id: string | number | boolean = 5;
+let value: any = 5;
+value = "bcbcb";
 
-id = true;
-id = "eeee";
+let user: object;
+user = {};
 
-console.log(age, name, id);
+type ID = string | number;
+
+let id: ID = 5;
+id = "dfg";
+
+console.log(id);
 
 export {};

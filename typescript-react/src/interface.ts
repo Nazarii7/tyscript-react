@@ -34,6 +34,6 @@ for (const [name, value] of entries) {
   }
 }
 
-console.log(confiq, employees, bestEmployeeName);
+// console.log(confiq, employees, bestEmployeeName);
 
 export {};
