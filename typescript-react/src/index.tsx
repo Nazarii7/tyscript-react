@@ -1,9 +1,9 @@
-//import "./primitives";
+import "./primitives";
 //import "./array";
 //import "./types";
 //import "./interface";
 // import "./enum";
 //import "./function";
-import "./class";
+//import "./class";
 
 export {};
