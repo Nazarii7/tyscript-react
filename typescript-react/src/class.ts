@@ -1,23 +1,3 @@
-interface shortDescrCar {
-  brand: string;
-}
-
-interface descCar {
-  brand: string;
-}
-
-class Car implements descCar, shortDescrCar {
-  public brand;
-
-  constructor({ brand }: shortDescrCar) {
-    this.brand = brand;
-  }
-}
-
-const car: descCar = new Car("BMW");
-
-console.log(car);
-
 interface Params {
   size: string;
   toppings: string[];

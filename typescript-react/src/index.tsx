@@ -1,9 +1,13 @@
-import "./primitives";
+//import "./primitives";
 //import "./array";
 //import "./types";
 //import "./interface";
 // import "./enum";
 //import "./function";
 //import "./class";
-
+//import "./generic-fns";
+//import "./generic-extends";
+//import "./generic-intrefaces";
+//import "./examples-generic";
+import "./generic-classes";
 export {};
